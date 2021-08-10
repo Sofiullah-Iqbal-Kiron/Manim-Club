@@ -1,0 +1,2 @@
+I started learning manim to make great math animation.
+Inspired from 3Blue1Brown's video. Video link: https://youtu.be/ojjzXyQCzso
