@@ -4,7 +4,7 @@ from manim import *
 class HBDN(Scene):
     def construct(self):
         self.camera.background_color = '#b6f0d8'
-        date = Text('2 February, 2022', font='Ebrima',
+        date = Text('2 January, 2022', font='Ebrima',
                     color=BLACK).scale(1)
         bmsg1 = Text("🎁  Happy Birthday Too YOU  🎂", color=GREEN)
         bmsg2 = Text('# many many happy returns of the day #',

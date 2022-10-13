@@ -1,0 +1,3 @@
+CSE178 Project.
+
+Dependencies: OpenGL, C++ core, Graphics, Python's numpy.

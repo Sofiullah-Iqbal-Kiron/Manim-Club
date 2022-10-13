@@ -33,12 +33,14 @@ Inspired from 3Blue1Brown's video. Video link: https://youtu.be/ojjzXyQCzso
 -> We can use hexa color code in str format.
 
 *****Flags: -p: play when it rendered
-	    -ql: low quality (useful for rapid prototyping and testing)
-	    -qm: medium quality
-	    -qh: high quality
-	    -qk: 4k quality
+	    -ql: low quality (useful for rapid prototyping and testing) 480p15
+	    -qm: medium quality, 720p30
+	    -qh: high quality, 1080p60
+	    -qp: production quality, 1440p60
+	    -qk: 4k quality, 2160p60
 	    -f: open the file in browser at it's location.
 	    -c: background color specification as '-c WHITE'
+	    -i: render in gif
 
 -> If our script contains multiple scence and we want to render them all concurrently the use the flag: -a
 

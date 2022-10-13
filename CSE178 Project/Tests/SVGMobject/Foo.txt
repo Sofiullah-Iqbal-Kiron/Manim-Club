@@ -1,0 +1,4 @@
+Use this site to create and export static(without any animations and background) svg and render
+in manim with SVGMobject class.
+
+Link: https://www.svgator.com/
