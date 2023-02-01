@@ -67,6 +67,10 @@ Project name: HBD-Nasir
 Date of create: 29 December, 2021
 
 
+Issue:
+Microsoft Visual C++ required: https://www.partitionwizard.com/partitionmanager/microsoft-visual-c-14-is-required.html
+
+
 Use fonts from here: { Preview: (win + r) -> (C:\Windows\Fonts) }
 ['Adobe Arabic', 'Adobe Caslon Pro', 'Adobe Caslon Pro Bold', 'Adobe Devanagari', 'Adobe Fan Heiti Std B', 'Adobe Fangsong Std R', 'Adobe Garamond Pro', 'Adobe Garamond Pro Bold', 'Adobe Gothic Std B', 'Adobe Hebrew', 'Adobe Heiti Std R', 'Adobe Kaiti Std R', 'Adobe Ming Std L', 'Adobe Myungjo Std M', 'Adobe Naskh Medium', 'Adobe Song Std L', 'Agency FB', 'Algerian', 'Arial', 'Arial Black', 'Arial Narrow', 'Arial Rounded MT Bold', 'Arial Unicode MS', 'Bahnschrift', 'Bahnschrift Condensed', 'Bahnschrift Light', 'Bahnschrift Light Condensed', 'Bahnschrift 
 Light SemiCondensed', 'Bahnschrift SemiBold', 'Bahnschrift SemiBold Condensed', 'Bahnschrift SemiBold SemiConden', 'Bahnschrift SemiCondensed', 'Bahnschrift SemiLight', 'Bahnschrift SemiLight Condensed', 'Bahnschrift SemiLight SemiConde', 'Baskerville Old Face', 'Bauhaus 93', 'Bell MT', 'Berlin Sans FB', 'Berlin Sans FB Demi', 'Bernard MT Condensed', 'Birch Std', 'Blackadder ITC', 'Blackoak Std', 'Bodoni MT', 'Bodoni MT Black', 'Bodoni MT Condensed', 'Bodoni MT Poster Compressed', 'Book Antiqua', 'Bookman Old Style', 'Bowlby One SC', 'Bradley Hand ITC', 
