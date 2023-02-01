@@ -3,7 +3,9 @@ from manim_voiceover import VoiceoverScene
 
 # Use googles Text to Speech API service, clear internet connection is required.
 from manim_voiceover.services.gtts import GTTSService
-from manim_voiceover.services.recorder import RecorderService
+
+# Azure Voice Service requires clear internet connnection and
+from manim_voiceover.services.azure import AzureService
 
 
 class Main(VoiceoverScene):
@@ -18,9 +20,11 @@ class Main(VoiceoverScene):
             self.play(GrowFromCenter(logo), run_time=tracker.duration)
 
 
+# Azure tts docs: https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service/language-support?tabs=stt
 class TextAzure(VoiceoverScene):
     def construct(self):
-        self.set_speech_service(GTTSService(lang="fr", tld="ca"))
+        self.set_speech_service(AzureService(voice="en-GB-OliverNeural", style="newscast-casual"))
         banner = ManimBanner().scale(0.6)
-        with self.voiceover(text="This is exampling with AzureVoice service.") as tra:
+        with self.voiceover(
+                text="This is exampling with AzureVoice service. Hello Kiron. Let's talk some dirty you naughty boy.") as tra:
             self.play(banner.create(), run_time=tra.duration)
