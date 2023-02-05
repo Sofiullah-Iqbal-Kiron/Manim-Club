@@ -45,9 +45,9 @@ class FourierSeries(VoiceoverScene):
                       font_size=35).next_to(g2, 1 * DOWN)
         with self.voiceover(
                 text="This equation will be called \"Fourier Series\" if the terms, A nought, A N, B N could be substituted into") as tracker:
-            self.play(Create(itWillCalled), run_time=tracker.duration / 1.6)
+            self.play(Create(itWillCalled), run_time=tracker.duration / 1.2)
 
-        self.play(itWillCalled.animate.scale(0.7).next_to(g2, 1.3 * UP))
+        self.play(itWillCalled.animate.scale(0.7).next_to(g2, 1.3 * UP), run_time=0.5)
         self.play(itWillCalled.animate.set_fill(RED), SpinInFromNothing(g2), point_color=RED)
 
         with self.voiceover(text="these equations.") as tracker:
