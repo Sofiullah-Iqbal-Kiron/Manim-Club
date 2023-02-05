@@ -8,16 +8,13 @@ from manim_voiceover.services.azure import AzureService
 
 class FourierSeries(VoiceoverScene):
     def construct(self):
+        # Basic self settings.
         myTemplate = TexTemplate()
         myTemplate.add_to_preamble(r"\usepackage{csquotes}")
         # self.add(NumberPlane())
         self.always_update_mobjects = True
         self.set_speech_service(AzureService(voice="en-GB-OliverNeural", style="newscast-casual"))
         # self.set_speech_service(GTTSService())
-
-        # subscribe = Text("Subscribe", font_size=15, color=WHITE).move_to([6.5, 4.7, 0])
-        # subscribe.shift(6.5 * RIGHT)
-        # self.add(subscribe)
 
         ourBasicTrigonometricSeriesIs = Text(text="We know that the basic trigonometric series is: ", font="Arial",
                                              font_size=52, weight=SEMIBOLD, width=12, color=GREEN)
