@@ -46,6 +46,10 @@ Inspired from 3Blue1Brown's video. Video link: https://youtu.be/ojjzXyQCzso
 
 -> By default manim renders the scence in .mp4, for gif: -i
 
+-> Extend from VMobject cause no other has defined animations. Don't extend from Mobject directly cause it is abstract.
+
+-> Get sound effects, pictures, illustrations from https://pixabay.com/ by agreeing with their license.
+
 
 *****Configuration:
 The most direct way of configuraring manim is through the global 'config'(instance of ManimConfig) object, that can be accessed either with standard attribute syntax or with dict-like syntax.

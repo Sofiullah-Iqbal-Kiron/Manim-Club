@@ -1,0 +1,19 @@
+Hello, my name is \bold{Sofiullah Iqbal Kiron}
+I'm the Full Stack Web Programmer.
+
+I develop frontend with React and writes server code with Django, then connect them by building a RESTful API.
+Here I uses MySQL as my database backend most of the time.
+
+I use these fantastic tools during development process: show all tools in one go animatedly with svg graphics.
+which includes vcs tool git and github, lightweight container \textbold{docker} to ship application to other developer as well.
+Also, expert in technical writing with LaTeX.
+Passionate JavaFX desktop developer.
+
+I am a Computer Science graduate from BSMRSTU. Hire me to showcase your business on digital platforms.
+Thanks for spending gem portion of your time with me.
+
+let's connect: 😃
+sofiul.k.1023@gmail.com
+01850561548
+
+typing speed: 51+

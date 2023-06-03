@@ -76,3 +76,13 @@ class CallHasib(VoiceoverScene):
             2)  # bug: follow1: https://github.com/ManimCommunity/manim-voiceover/blob/main/examples/quadratic-formula-arabic.py, follow2: https://github.com/3b1b/manim/issues/525
         with self.voiceover(text="হাসিব ভাই ০৩৭") as tracker:
             self.play(Write(text), run_time=tracker.duration)
+
+
+class DoubledLine(Scene):
+    def construct(self):
+        self.camera.background_color = BLACK
+        line = Line(color=WHITE, start=(-3, 0, 0), end=(3, 0, 0), stroke_width=2)
+        doubled_line = VGroup(line, line.copy().shift(UP * 0.1))
+
+        self.play(ShowIncreasingSubsets(doubled_line))
+        self.wait(2)

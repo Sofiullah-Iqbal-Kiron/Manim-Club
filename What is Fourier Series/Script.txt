@@ -1,0 +1,6 @@
+We know that the basic trigonometric series is
+this equation appearing on the screen.
+This equation will be called "Fourier Series" if the terms A nought, A N, B N could be substituted as
+these equations.
+Where F of x is any single valued function defined in the exclusive interval from minus PI to PI.
+Thank You.

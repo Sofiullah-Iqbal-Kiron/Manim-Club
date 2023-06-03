@@ -1,0 +1,4 @@
+Installed on 4 February.
+Slide presented on a pyside6 application.
+
+docs: https://eertmans.be/manim-slides/index.html

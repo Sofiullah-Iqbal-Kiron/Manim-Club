@@ -1,0 +1,30 @@
+{
+  "slides": [
+    {
+      "type": "slide",
+      "start_animation": 0,
+      "end_animation": 1,
+      "number": 1,
+      "terminated": false
+    },
+    {
+      "type": "loop",
+      "start_animation": 1,
+      "end_animation": 2,
+      "number": 2,
+      "terminated": false
+    },
+    {
+      "type": "last",
+      "start_animation": 2,
+      "end_animation": 3,
+      "number": 3,
+      "terminated": false
+    }
+  ],
+  "files": [
+    "./slides\\files\\Main\\139003253_1682965519_223132457.mp4",
+    "./slides\\files\\Main\\3120117191_3884397979_2191168284.mp4",
+    "./slides\\files\\Main\\3120117191_3823941062_3942561600.mp4"
+  ]
+}
